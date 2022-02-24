@@ -19,6 +19,10 @@ head, body{
     float: left;
     overflow: auto;
     border: 1px solid black;
+    grid-column-gap: 30px;
+    margin: 5px;
+    grid-template-columns: auto auto;
+    
 
 }
 .foods{
@@ -26,4 +30,14 @@ head, body{
     float: right;
     overflow: auto;
     border: 1px solid black;
+    grid-column-gap: 30px;
+    margin: 5px;
+    grid-template-columns:auto auto;
+}
+.conclusion{
+    
+    color: black;
+    display: grid;
+    margin: 5px;
+    float: left;
 }
