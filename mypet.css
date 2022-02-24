@@ -1,0 +1,44 @@
+head, body{
+
+    background-color:#ad8c9d;
+    margin: 0;
+    padding: 0;
+}
+
+
+.head{
+    color: #170908;
+    font-weight: bold;
+    font-style: italic;
+
+    
+
+}
+.Routine{
+    display: grid ;
+    
+    overflow: auto;
+  
+    grid-template-rows: 60px 200px;
+    margin: 30px;
+    grid-template-columns: auto auto;
+    
+    
+
+}
+.foods{
+    display: grid ;
+    
+    overflow: auto;
+    
+    margin: 30px;
+    
+    
+}
+.conclusion{
+    
+    color: black;
+    display: grid;
+    margin: 5px;
+    float: left;
+}
