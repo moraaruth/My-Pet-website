@@ -21,3 +21,9 @@ head, body{
     border: 1px solid black;
 
 }
+.foods{
+    display: grid;
+    float: right;
+    overflow: auto;
+    border: 1px solid black;
+}
