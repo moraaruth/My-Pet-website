@@ -15,24 +15,25 @@ head, body{
 
 }
 .Routine{
-    display: grid;
-    float: left;
+    display: grid ;
+    
     overflow: auto;
-    border: 1px solid black;
-    grid-column-gap: 30px;
-    margin: 5px;
+  
+    grid-template-rows: 60px 200px;
+    margin: 30px;
     grid-template-columns: auto auto;
+    
     
 
 }
 .foods{
-    display: grid;
-    float: right;
+    display: grid ;
+    
     overflow: auto;
-    border: 1px solid black;
-    grid-column-gap: 30px;
-    margin: 5px;
-    grid-template-columns:auto auto;
+    
+    margin: 30px;
+    
+    
 }
 .conclusion{
     
